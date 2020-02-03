@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_79a209e2067a488a9fbddc4eedc886a3 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_79a209e2067a488a9fbddc4eedc886a3" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_79a209e2067a488a9fbddc4eedc886a3 = L.map(
+                                  'map_79a209e2067a488a9fbddc4eedc886a3',
+                                  {center: [40.7127281,-74.0060152],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_3243f5e57a2c42ecb43e52c3d7b10409 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_79a209e2067a488a9fbddc4eedc886a3);
+        
+    
+
+            var marker_9ab026dc4cce491bb8a7374788d17ee6 = L.marker(
+                [40.7485096643122,-73.98871313285247],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_79a209e2067a488a9fbddc4eedc886a3);
+            
+    
+            var popup_076bf794b7164da3b7b65225a44e8c6f = L.popup({maxWidth: '300'});
+
+            
+                var html_68f8010f89374ee89d82cd65781fc555 = $('<div id="html_68f8010f89374ee89d82cd65781fc555" style="width: 100.0%; height: 100.0%;">Stumptown Coffee Roasters, Midtown South, Manhattan</div>')[0];
+                popup_076bf794b7164da3b7b65225a44e8c6f.setContent(html_68f8010f89374ee89d82cd65781fc555);
+            
+
+            marker_9ab026dc4cce491bb8a7374788d17ee6.bindPopup(popup_076bf794b7164da3b7b65225a44e8c6f);
+
+            
+        
+    
+
+            var marker_bd5133b4a4a342128efb60f64eb5555b = L.marker(
+                [40.72218384131794,-74.00065666959759],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_79a209e2067a488a9fbddc4eedc886a3);
+            
+    
+            var popup_c89baa329de641f88598b4d4fdc2e90d = L.popup({maxWidth: '300'});
+
+            
+                var html_32861c3766cd4a998211e3740bc06d79 = $('<div id="html_32861c3766cd4a998211e3740bc06d79" style="width: 100.0%; height: 100.0%;">Ground Support, Soho, Manhattan</div>')[0];
+                popup_c89baa329de641f88598b4d4fdc2e90d.setContent(html_32861c3766cd4a998211e3740bc06d79);
+            
+
+            marker_bd5133b4a4a342128efb60f64eb5555b.bindPopup(popup_c89baa329de641f88598b4d4fdc2e90d);
+
+            
+        
+    
+
+            var marker_a4f90dba9a594c3cba5dd9683cfc24d1 = L.marker(
+                [40.70317632822692,-73.9887528074504],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_79a209e2067a488a9fbddc4eedc886a3);
+            
+    
+            var popup_c3d01e34f568412a9976e19907b9ab6e = L.popup({maxWidth: '300'});
+
+            
+                var html_9567b0646b3642b496458837ec8b43b7 = $('<div id="html_9567b0646b3642b496458837ec8b43b7" style="width: 100.0%; height: 100.0%;">Brooklyn Roasting Company, Dumbo, Brooklyn</div>')[0];
+                popup_c3d01e34f568412a9976e19907b9ab6e.setContent(html_9567b0646b3642b496458837ec8b43b7);
+            
+
+            marker_a4f90dba9a594c3cba5dd9683cfc24d1.bindPopup(popup_c3d01e34f568412a9976e19907b9ab6e);
+
+            
+        
+    
+
+            var marker_960bb6d1fabf4c3a9e9d832d39a1f901 = L.marker(
+                [40.744034706747975,-74.00311633472813],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_79a209e2067a488a9fbddc4eedc886a3);
+            
+    
+            var popup_fcb9e618e606462dbb249f2ae8a88656 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb0f135bd5d24099bff97880caa56d1f = $('<div id="html_cb0f135bd5d24099bff97880caa56d1f" style="width: 100.0%; height: 100.0%;">Blue Bottle Coffee, Chelsea, Manhattan</div>')[0];
+                popup_fcb9e618e606462dbb249f2ae8a88656.setContent(html_cb0f135bd5d24099bff97880caa56d1f);
+            
+
+            marker_960bb6d1fabf4c3a9e9d832d39a1f901.bindPopup(popup_fcb9e618e606462dbb249f2ae8a88656);
+
+            
+        
+    
+
+            var marker_251eb318992f438492ea428612efb79d = L.marker(
+                [40.71932379395907,-73.99730467208073],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_79a209e2067a488a9fbddc4eedc886a3);
+            
+    
+            var popup_3877f73e1b8c4238b4c0d10c46f597ce = L.popup({maxWidth: '300'});
+
+            
+                var html_fbadf8bdb8d24f3d92c15450b72499f6 = $('<div id="html_fbadf8bdb8d24f3d92c15450b72499f6" style="width: 100.0%; height: 100.0%;">Happy Bones, Little Italy, Manhattan</div>')[0];
+                popup_3877f73e1b8c4238b4c0d10c46f597ce.setContent(html_fbadf8bdb8d24f3d92c15450b72499f6);
+            
+
+            marker_251eb318992f438492ea428612efb79d.bindPopup(popup_3877f73e1b8c4238b4c0d10c46f597ce);
+
+            
+        
+    
+
+            var marker_8f6151065ba24e87a3dcbc563277f8d4 = L.marker(
+                [40.72218384131794,-74.00065666959759],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_79a209e2067a488a9fbddc4eedc886a3);
+            
+    
+            var popup_e969e213a35b40ebb4c036685592be52 = L.popup({maxWidth: '300'});
+
+            
+                var html_64ccac49737141fbad535c1ed7f12816 = $('<div id="html_64ccac49737141fbad535c1ed7f12816" style="width: 100.0%; height: 100.0%;">Happy Bones, Soho, Manhattan</div>')[0];
+                popup_e969e213a35b40ebb4c036685592be52.setContent(html_64ccac49737141fbad535c1ed7f12816);
+            
+
+            marker_8f6151065ba24e87a3dcbc563277f8d4.bindPopup(popup_e969e213a35b40ebb4c036685592be52);
+
+            
+        
+    
+
+            var marker_6050db0545324bb3868051d6e3191d45 = L.marker(
+                [40.75469110270623,-73.98166882730304],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_79a209e2067a488a9fbddc4eedc886a3);
+            
+    
+            var popup_b620caa5f7764829afa801440cf22846 = L.popup({maxWidth: '300'});
+
+            
+                var html_697fb10924684480bb4f91191ddd900c = $('<div id="html_697fb10924684480bb4f91191ddd900c" style="width: 100.0%; height: 100.0%;">Blue Bottle Coffee, Midtown, Manhattan</div>')[0];
+                popup_b620caa5f7764829afa801440cf22846.setContent(html_697fb10924684480bb4f91191ddd900c);
+            
+
+            marker_6050db0545324bb3868051d6e3191d45.bindPopup(popup_b620caa5f7764829afa801440cf22846);
+
+            
+        
+    
+
+            var marker_4625d20c354d4c3daeb159147c569497 = L.marker(
+                [40.744034706747975,-74.00311633472813],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_79a209e2067a488a9fbddc4eedc886a3);
+            
+    
+            var popup_665fbd8c9a854abea75a7f84d273bf06 = L.popup({maxWidth: '300'});
+
+            
+                var html_43d44120b1ff4ef2bf57081b7be0d394 = $('<div id="html_43d44120b1ff4ef2bf57081b7be0d394" style="width: 100.0%; height: 100.0%;">Intelligentsia Coffee, Chelsea, Manhattan</div>')[0];
+                popup_665fbd8c9a854abea75a7f84d273bf06.setContent(html_43d44120b1ff4ef2bf57081b7be0d394);
+            
+
+            marker_4625d20c354d4c3daeb159147c569497.bindPopup(popup_665fbd8c9a854abea75a7f84d273bf06);
+
+            
+        
+    
+
+            var marker_810409cfb5924d03906f19f663e2d47d = L.marker(
+                [40.73443393572434,-74.00617998126812],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_79a209e2067a488a9fbddc4eedc886a3);
+            
+    
+            var popup_5207cd5a0551406185ce2815da006288 = L.popup({maxWidth: '300'});
+
+            
+                var html_60117afaf56b430fb785ae3d5d4e6bb7 = $('<div id="html_60117afaf56b430fb785ae3d5d4e6bb7" style="width: 100.0%; height: 100.0%;">The ELK, West Village, Manhattan</div>')[0];
+                popup_5207cd5a0551406185ce2815da006288.setContent(html_60117afaf56b430fb785ae3d5d4e6bb7);
+            
+
+            marker_810409cfb5924d03906f19f663e2d47d.bindPopup(popup_5207cd5a0551406185ce2815da006288);
+
+            
+        
+    
+
+            var marker_65f5df99e18f441190dd57a48e877f19 = L.marker(
+                [40.7826825671257,-73.95325646837112],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_79a209e2067a488a9fbddc4eedc886a3);
+            
+    
+            var popup_e3db8e6a87d9416190b7ebc45b2c2eed = L.popup({maxWidth: '300'});
+
+            
+                var html_36c5026a93674cd5bd8add89a8e46d5a = $('<div id="html_36c5026a93674cd5bd8add89a8e46d5a" style="width: 100.0%; height: 100.0%;">DTUT, Carnegie Hill, Manhattan</div>')[0];
+                popup_e3db8e6a87d9416190b7ebc45b2c2eed.setContent(html_36c5026a93674cd5bd8add89a8e46d5a);
+            
+
+            marker_65f5df99e18f441190dd57a48e877f19.bindPopup(popup_e3db8e6a87d9416190b7ebc45b2c2eed);
+
+            
+        
+    
+            var feature_group_677d935223d5451ebc537fa7351b04d6 = L.featureGroup(
+                ).addTo(map_79a209e2067a488a9fbddc4eedc886a3);
+        
+    
+            var circle_marker_328323975d45417fad562c092666d82e = L.circleMarker(
+                [40.7485096643122,-73.98871313285247],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_677d935223d5451ebc537fa7351b04d6);
+            
+    
+            var circle_marker_88b20968b01046df881a02c106337fb3 = L.circleMarker(
+                [40.72218384131794,-74.00065666959759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_677d935223d5451ebc537fa7351b04d6);
+            
+    
+            var circle_marker_09939505e7454475ab0a9effa2a1104f = L.circleMarker(
+                [40.70317632822692,-73.9887528074504],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_677d935223d5451ebc537fa7351b04d6);
+            
+    
+            var circle_marker_70b1b0d2dac8470ab63099f1cecf7a0e = L.circleMarker(
+                [40.744034706747975,-74.00311633472813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_677d935223d5451ebc537fa7351b04d6);
+            
+    
+            var circle_marker_c03e36fa80e04d409169da66815dbec6 = L.circleMarker(
+                [40.71932379395907,-73.99730467208073],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_677d935223d5451ebc537fa7351b04d6);
+            
+    
+            var circle_marker_2da1243366594ab3919b74031c781ee5 = L.circleMarker(
+                [40.72218384131794,-74.00065666959759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_677d935223d5451ebc537fa7351b04d6);
+            
+    
+            var circle_marker_4f3ab5e9a4704b64bda13e6616cc0039 = L.circleMarker(
+                [40.75469110270623,-73.98166882730304],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_677d935223d5451ebc537fa7351b04d6);
+            
+    
+            var circle_marker_64d2055da98c4791a6042c257e636732 = L.circleMarker(
+                [40.744034706747975,-74.00311633472813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_677d935223d5451ebc537fa7351b04d6);
+            
+    
+            var circle_marker_e751058e8c364fcdb3b97235311ea5a2 = L.circleMarker(
+                [40.73443393572434,-74.00617998126812],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_677d935223d5451ebc537fa7351b04d6);
+            
+    
+            var circle_marker_8f0d2f06954543b1b95ef885b3b39b73 = L.circleMarker(
+                [40.7826825671257,-73.95325646837112],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_677d935223d5451ebc537fa7351b04d6);
+            
+</script>
